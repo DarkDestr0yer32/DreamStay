@@ -1,0 +1,21 @@
+body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://images.unsplash.com/photo-1617287287784-7e6b90c6cfd7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.delete {
+    color: #fff;
+}

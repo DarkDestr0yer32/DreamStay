@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("https://images.unsplash.com/photo-1589035199867-8c09c11b746d?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cluster-map {
+    width: 100%;
+    height: 450px;
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.input-group {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.no-results-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .card-img {
+        border-radius: 10px 10px 0 0;
+        height: auto;
+    }
+}
