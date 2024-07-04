@@ -47,8 +47,10 @@ To set up this project locally, follow these steps:
 4. **Create a `.env` file** in the root directory and add your environment variables:
     ```plaintext
     PORT=3000
-    MONGODB_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
+    CLOUDINARY_CLOUD_NAME='your cloudinary name'
+    CLOUDINARY_KEY='your cloudinary key'
+    CLOUDINARY_SECRET='your cloudinary secret'
+    MAPBOX_TOKEN='your mapbox token'
     ```
 
 5. **Start the server**:
