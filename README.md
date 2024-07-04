@@ -55,7 +55,7 @@ To set up this project locally, follow these steps:
 
 5. **Start the server**:
     ```bash
-    npm start
+    nodemon app.js
     ```
 
 6. **Visit the application**:
