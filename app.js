@@ -16,7 +16,7 @@ const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet');
-const dbURL = 'mongodb://localhost:27017/DreamStay'
+// const dbURL = 'mongodb://localhost:27017/DreamStay'
 const MongoDBStore = require("connect-mongo")(session);
 
 const userRoutes = require('./routes/users')
